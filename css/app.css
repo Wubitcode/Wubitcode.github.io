@@ -1,0 +1,72 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefefe;
+  color: #333;
+}
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+.overlay-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+.overlay-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.overlay-text p {
+  font-size: 1.5rem;
+}
+#about {
+  padding: 2rem;
+  background-color: #fff8f2;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.bio-image {
+  width: 200px;
+  border-radius: 15px;
+}
+#gallery {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+.gallery-images {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-images img {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
